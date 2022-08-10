@@ -18,10 +18,10 @@
 
 ### To get a local copy up and running follow these simple example steps:
 
-1 - git clone https://github.com/LokurasRlz/To-Do-List.git
-2 - cd To-Do-List
-3 - npm install
-4 - npm run start
+- git clone https://github.com/LokurasRlz/To-Do-List.git
+- cd To-Do-List
+- npm install
+- npm run start
 
 
 ## Author
