@@ -27,11 +27,11 @@ export default class List {
     if (localStorage.getItem(this.storageName) === null) {
       this.#updateStorage();
     } else {
-        const tempList = JSON.parse(localStorage.getItem(this.storageName));
-        Object.values(tempList).forEach((item) => {
+      const tempList = JSON.parse(localStorage.getItem(this.storageName));
+      Object.values(tempList).forEach((item) => {
         this.list[item.index] = new this.ItemType(item.description, item.completed, item.index);
-        });
-      }
+      });
+    }
   }
 
   addItem(item) {
