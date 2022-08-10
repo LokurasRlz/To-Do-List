@@ -16,14 +16,13 @@
 
 ## Getting Started
 
-###To get a local copy up and running follow these simple example steps:
+### To get a local copy up and running follow these simple example steps:
 
-- Click the Code button in the top right corner
-- Download ZIP
-- Unzip the file: To-Do-List.zip
-- Open index.html with your web browser
+1 - git clone https://github.com/LokurasRlz/To-Do-List.git
+2 - cd To-Do-List
+3 - npm install
+4 - npm run start
 
-To get a local copy up and running follow these simple example steps.
 
 ## Author
 
