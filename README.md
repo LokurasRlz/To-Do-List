@@ -14,6 +14,17 @@
 - CSS
 - Webpack Bundle
 
+## Getting Started
+
+###To get a local copy up and running follow these simple example steps:
+
+- Click the Code button in the top right corner
+- Download ZIP
+- Unzip the file: To-Do-List.zip
+- Open index.html with your web browser
+
+To get a local copy up and running follow these simple example steps.
+
 ## Author
 
 👤 **Matias Aguirre**
