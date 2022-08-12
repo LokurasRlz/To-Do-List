@@ -5,7 +5,7 @@ const HTMLTemplate = (title, input, btn, list, clear) => `
   </div>
   <ul class="list">
     <li>
-      <input id="${input}" maxlength="128" placeholder="Add a task!" spellcheck="false">
+      <input id="${input}" maxlength="128" placeholder="Add to your list..." spellcheck="false">
       <button id="${btn}" class="add-item">↵</button>
     </li>
   </ul>

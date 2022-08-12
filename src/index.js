@@ -5,7 +5,7 @@ import Item from './modules/list-item.js';
 
 const myapp = document.querySelector('.myapp');
 const template = document.createElement('div');
-const listTitle = 'Today\'s to-do\'s:'.slice(0, 69);
+const listTitle = 'Today\'s To Do:'.slice(0, 69);
 const inputName = 'add-todo';
 const btnName = 'add-task';
 const listName = 'to-do';
