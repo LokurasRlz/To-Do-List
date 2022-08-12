@@ -22,7 +22,6 @@ body {
   font-family: monospace;
   font-size: 18px;
   font-weight: 600;
-  border-bottom: 1px solid grey;
 }
 
 .list-title > * {
@@ -40,15 +39,13 @@ body {
   max-width: 400px;
   width: auto;
   min-width: 280px;
-  max-height: 80vh;
   height: auto;
-  min-height: 240px;
+  min-height: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.3);
-  border-bottom: grey;
 }
 
 ul,
@@ -69,7 +66,6 @@ ul {
   height: auto;
   min-height: 40px;
   align-items: center;
-  border-bottom: grey;
 }
 
 .list > li {
@@ -77,7 +73,6 @@ ul {
   min-height: 40px;
   height: auto;
   justify-content: space-evenly;
-  border-bottom: grey;
 }
 
 .list > li > * {
@@ -121,6 +116,11 @@ ul {
 
 .list-items > li > button {
   background-color: rgb(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.check {
+  background-color: rgb(0, 102, 255) !important;
 }
 
 .list > li > div {
@@ -154,8 +154,6 @@ a:active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: grey;
-  background-color: rgb(240, 240, 240);
 }
 
 .options {
